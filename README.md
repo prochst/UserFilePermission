@@ -31,23 +31,39 @@ Projekt je vytvoøen ve Visual studiu 2019, 2022
 ### Nastavení
 
 V uživatelském rozhraní se zadávají:
+
 -- Pøihlašovací jméno uživatele, pro kterého vypisujeme oprávnìní - AD úèet
+
 -- Active directory doména s kterou pracujeme 
+
 -- Startovací adresáø pro prohledávání
+
 -- Poèet úrovní které se budou prohledávat
+
 -- Vypis individuálních oprávnìní uživatele nebo i oprávnìní skupin, kterých je èlenem
+
 -- Seznam adresáøù oddìlených èárkou, kterí se pøi procházení vynechají
 
+
 V souboru config.ini lze pøenastavit:
+
 -- Active directory doménu
+
 -- Poèet úrovní které se budou prohledávat
+
 -- Seznam ignorovaných adresáøù
 
+
 Formát ini souboru
+
 [Default setting]
+
 domain= mydomain.local
+
 levels = 3
+
 directoryexcluded= _osoba, _archiv
+
 
 ## Licence
 
