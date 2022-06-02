@@ -5,8 +5,6 @@ Nalezaná oprávnìní lze exportovat do CSV souboru
 
 - [UserFilePermission](#userFilepermission)
   - [Technologie](#technologie)
-  - [Jak zaèít](#jak-zaèít)
-    - [Co je potøeba](#co-je-potøeba)
   - [Používání](#používání)
     - [Struktura projektu](#struktura-projektu)
     - [Nastavení](#nastavení)
