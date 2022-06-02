@@ -22,9 +22,13 @@ Projekt je vytvoøen ve Visual studiu 2019, 2022
 ### Struktura projektu
 
 -- App.xaml - vstupní bod aplikace
+
 -- MainWindow.xaml - formuláø s uživatelským rozhraním
+
 -- CheckPermissions.cs - tøída pro výpis oprávnìní
+
 -- config.ini - configuraèní soubor pro pøednastavené hodnoty, musí být v adresáøi aplikace
+
 
 ### Nastavení
 
