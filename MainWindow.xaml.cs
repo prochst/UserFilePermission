@@ -16,7 +16,7 @@ namespace UserFilePermission
     /// <summary>
     /// Aplikace projde zadaný adresář včetně podadresářů do definované úrovně
     /// a vypíše souborová oprávnění pro zvoleného uživatele.
-    /// Podle volby vypíče individuální oprávnšní nebo i oprávnění skupin,
+    /// Podle volby vypíše individuální oprávnšní nebo i oprávnění skupin,
     /// ve kterých je členem.
     /// Je určeno pro uživatele z Active Directory domeny a sdílené adresáře souborového serveru
     /// Aplikaci je nutné pouštět s admin oprávněnímpro proghledávané složky

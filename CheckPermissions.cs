@@ -20,10 +20,9 @@ namespace UserFilePermission
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string vlastnost) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(vlastnost));
 
-        // Přihlšovací jméno uživatele, pro kterého vypisujeme oprávnění - AD účet
+        // Přihlašovací jméno uživatele, pro kterého vypisujeme oprávnění - AD účet
         public string UserName { get; set; }
 
-        // SKupiny do kterých uživatel patří 
         // Active directory doména s kterou pracujeme
         public string Domain { get; set; }
 
