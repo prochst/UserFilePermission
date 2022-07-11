@@ -1,62 +1,62 @@
 # UserFilePermission
-Nástroj pro administrátory sdílenıch souborù v Active Directory doménì, kterı umoòuje procházet adresáø a podadresáøe do definované úrovnì
-a vypsat souborová oprávnìní pro zvoleného uivatele. Podle volby vypíše individuální oprávnìní nebo i oprávnìní skupin, ve kterıch je èlenem.
-Nalezaná oprávnìní lze exportovat do CSV souboru
+NÃ¡stroj pro administrÃ¡tory sdÃ­lenÃ½ch souborÅ¯ v Active Directory domÃ©nÄ›, kterÃ½ umoÅ¾Åˆuje prochÃ¡zet adresÃ¡Å™ a podadresÃ¡Å™e do definovanÃ© ÃºrovnÄ›
+a vypsat souborovÃ¡ oprÃ¡vnÄ›nÃ­ pro zvolenÃ©ho uÅ¾ivatele. Podle volby vypÃ­Å¡e individuÃ¡lnÃ­ oprÃ¡vnÄ›nÃ­ nebo i oprÃ¡vnÄ›nÃ­ skupin, ve kterÃ½ch je Älenem.
+NalezanÃ¡ oprÃ¡vnÄ›nÃ­ lze exportovat do CSV souboru
 
 - [UserFilePermission](#userFilepermission)
   - [Technologie](#technologie)
-  - [Pouívání](#pouívání)
+  - [PouÅ¾Ã­vÃ¡nÃ­](#pouÅ¾Ã­vÃ¡nÃ­)
     - [Struktura projektu](#struktura-projektu)
-    - [Nastavení](#nastavení)
+    - [NastavenÃ­](#nastavenÃ­)
   - [Licence](#licence)
   - [Kontakt](#kontakt)
 
 ## Technologie
 
-Projekt je napsán v C# a Net Core 3.1
+Projekt je napsÃ¡n v C# a Net Core 3.1
 
-Projekt je vytvoøen ve Visual studiu 2019, 2022
+Projekt je vytvoÅ™en ve Visual studiu 2019, 2022
 
-## Pouívání
+## PouÅ¾Ã­vÃ¡nÃ­
 
 ### Struktura projektu
 
--- App.xaml - vstupní bod aplikace
+-- App.xaml - vstupnÃ­ bod aplikace
 
--- MainWindow.xaml - formuláø s uivatelskım rozhraním
+-- MainWindow.xaml - formulÃ¡Å™ s uÅ¾ivatelskÃ½m rozhranÃ­m
 
--- CheckPermissions.cs - tøída pro vıpis oprávnìní
+-- CheckPermissions.cs - tÅ™Ã­da pro vÃ½pis oprÃ¡vnÄ›nÃ­
 
--- config.ini - configuraèní soubor pro pøednastavené hodnoty, musí bıt v adresáøi aplikace
-
-
-### Nastavení
-
-V uivatelském rozhraní se zadávají:
-
--- Pøihlašovací jméno uivatele, pro kterého vypisujeme oprávnìní - AD úèet
-
--- Active directory doména s kterou pracujeme 
-
--- Startovací adresáø pro prohledávání
-
--- Poèet úrovní které se budou prohledávat
-
--- Vypis individuálních oprávnìní uivatele nebo i oprávnìní skupin, kterıch je èlenem
-
--- Seznam adresáøù oddìlenıch èárkou, kterí se pøi procházení vynechají
+-- config.ini - configuraÄnÃ­ soubor pro pÅ™ednastavenÃ© hodnoty, musÃ­ bÃ½t v adresÃ¡Å™i aplikace
 
 
-V souboru config.ini lze pøenastavit:
+### NastavenÃ­
 
--- Active directory doménu
+V uÅ¾ivatelskÃ©m rozhranÃ­ se zadÃ¡vajÃ­:
 
--- Poèet úrovní které se budou prohledávat
+-- PÅ™ihlaÅ¡ovacÃ­ jmÃ©no uÅ¾ivatele, pro kterÃ©ho vypisujeme oprÃ¡vnÄ›nÃ­ - AD ÃºÄet
 
--- Seznam ignorovanıch adresáøù
+-- Active directory domÃ©na s kterou pracujeme 
+
+-- StartovacÃ­ adresÃ¡Å™ pro prohledÃ¡vÃ¡nÃ­
+
+-- PoÄet ÃºrovnÃ­ kterÃ© se budou prohledÃ¡vat
+
+-- Vypis individuÃ¡lnÃ­ch oprÃ¡vnÄ›nÃ­ uÅ¾ivatele nebo i oprÃ¡vnÄ›nÃ­ skupin, kterÃ½ch je Älenem
+
+-- Seznam adresÃ¡Å™Å¯ oddÄ›lenÃ½ch ÄÃ¡rkou, kterÃ­ se pÅ™i prochÃ¡zenÃ­ vynechajÃ­
 
 
-Formát ini souboru
+V souboru config.ini lze pÅ™enastavit:
+
+-- Active directory domÃ©nu
+
+-- PoÄet ÃºrovnÃ­ kterÃ© se budou prohledÃ¡vat
+
+-- Seznam ignorovanÃ½ch adresÃ¡Å™Å¯
+
+
+FormÃ¡t ini souboru
 
 [Default setting]
 
@@ -73,5 +73,5 @@ Distributed under the GNU GENERAL PUBLIC LICENSE. See license.txt for more infor
 
 ## Kontakt
 
-Autor: Standa Procházka - prochst@gmmail.com
+Autor: Standa ProchÃ¡zka - prochst.dev@gmmail.com
 Projekt: [GitHub](https://github.com/prochst/UserFilePermission)
